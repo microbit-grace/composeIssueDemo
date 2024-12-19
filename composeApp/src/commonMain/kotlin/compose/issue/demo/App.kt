@@ -50,7 +50,7 @@ fun App() {
         ModalNavigationDrawer(
             drawerState = drawerState,
             drawerContent = {
-                ModalDrawerSheet(drawerState) {
+                ModalDrawerSheet() {
                     Column(Modifier.verticalScroll(rememberScrollState())) {
                         Spacer(Modifier.height(12.dp))
                         items.forEach { item ->
